@@ -1,9 +1,11 @@
+import React from "react";
 
 const Score = (props) => {
   return (  
     <>
     <div>
-      {props.scores}
+      <p>Score: {props.score.score}</p>
+      <p>Date: {props.score.date}</p>
     </div>
     </>
   );
